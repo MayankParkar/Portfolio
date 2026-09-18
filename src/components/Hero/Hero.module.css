@@ -1,0 +1,74 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 48px;
+  padding-top: 64px;
+  max-width: 760px;
+}
+
+.greeting {
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: clamp(36px, 6vw, 72px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  margin-bottom: 8px;
+}
+.role {
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 24px;
+}
+
+.bio {
+  font-size: 16px;
+  color: var(--color-text-muted);
+  max-width: 540px;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: var(--color-primary);
+  color: #0f172a;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.btnPrimary:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.btnSecondary {
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.btnSecondary:hover {
+  border-color: var(--color-primary);
+  text-decoration: none;
+}
