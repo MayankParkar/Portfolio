@@ -13,7 +13,7 @@ function Footer() {
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/YOUR_HANDLE"
+          href="https://www.linkedin.com/in/mayank-parkar-09b2b5233/"
           target="_blank"
           rel="noreferrer"
         >
